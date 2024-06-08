@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #search-form {
+    margin-top: 20px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #search-form button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #search-form button:hover {
+    background-color: #0056b3;
+  }
+  #book-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .book-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .book-cover {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .book-details {
+    margin-top: 10px;
+  }
+  
+  .book-title {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .book-author {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .book-description {
+    font-size: 0.9em;
+    color: #666;
+  }
+  #pagination-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #pagination-controls button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  #pagination-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #pagination-controls button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  #page-info {
+    margin: 0 10px;
+  }
+      
